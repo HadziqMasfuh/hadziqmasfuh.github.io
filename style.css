@@ -86,7 +86,24 @@ span {
   font-size: 0.8rem;
   text-transform: capitalize;
 }
-
+.date {
+  font-size: 0.7rem;
+  text-align: right;
+}
+.timeline {
+  position: relative;
+  margin: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background: var(--black);
+  color: white;
+  border-radius: 10%;
+}
+.none {
+  position: relative;
+  height: 3rem;
+}
 .container {
   max-width: 1000px;
   padding: 0 10px;
